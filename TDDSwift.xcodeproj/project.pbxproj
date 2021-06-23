@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3394A3D26410EE7005EB96C /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3394A3C26410EE7005EB96C /* Money.swift */; };
+		E3394A3F264149D4005EB96C /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3394A3E264149D4005EB96C /* Expression.swift */; };
+		E3394A4126414A86005EB96C /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3394A4026414A86005EB96C /* Bank.swift */; };
+		E3394A4326414BFE005EB96C /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3394A4226414BFE005EB96C /* Sum.swift */; };
 		E3C73F6F264105440000C0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F6E264105440000C0D3 /* AppDelegate.swift */; };
 		E3C73F71264105440000C0D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F70264105440000C0D3 /* SceneDelegate.swift */; };
 		E3C73F73264105440000C0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F72264105440000C0D3 /* ViewController.swift */; };
 		E3C73F76264105440000C0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C73F74264105440000C0D3 /* Main.storyboard */; };
 		E3C73F78264105460000C0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C73F77264105460000C0D3 /* Assets.xcassets */; };
 		E3C73F7B264105460000C0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C73F79264105460000C0D3 /* LaunchScreen.storyboard */; };
-		E3C73F86264105460000C0D3 /* TDDSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F85264105460000C0D3 /* TDDSwiftTests.swift */; };
-		E3C73F91264105460000C0D3 /* TDDSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F90264105460000C0D3 /* TDDSwiftUITests.swift */; };
+		E3C73F9F264105B00000C0D3 /* MoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C73F9E264105B00000C0D3 /* MoneyTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,16 +28,13 @@
 			remoteGlobalIDString = E3C73F6A264105440000C0D3;
 			remoteInfo = TDDSwift;
 		};
-		E3C73F8D264105460000C0D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3C73F63264105440000C0D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3C73F6A264105440000C0D3;
-			remoteInfo = TDDSwift;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3394A3C26410EE7005EB96C /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		E3394A3E264149D4005EB96C /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		E3394A4026414A86005EB96C /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		E3394A4226414BFE005EB96C /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		E3C73F6B264105440000C0D3 /* TDDSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C73F6E264105440000C0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C73F70264105440000C0D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +44,8 @@
 		E3C73F7A264105460000C0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3C73F7C264105460000C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C73F81264105460000C0D3 /* TDDSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C73F85264105460000C0D3 /* TDDSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSwiftTests.swift; sourceTree = "<group>"; };
 		E3C73F87264105460000C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3C73F8C264105460000C0D3 /* TDDSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C73F90264105460000C0D3 /* TDDSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSwiftUITests.swift; sourceTree = "<group>"; };
-		E3C73F92264105460000C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C73F9E264105B00000C0D3 /* MoneyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +63,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3C73F89264105460000C0D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3394A3726410667005EB96C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E3394A3C26410EE7005EB96C /* Money.swift */,
+				E3394A4226414BFE005EB96C /* Sum.swift */,
+				E3394A3E264149D4005EB96C /* Expression.swift */,
+				E3394A4026414A86005EB96C /* Bank.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		E3C73F62264105440000C0D3 = {
 			isa = PBXGroup;
 			children = (
 				E3C73F6D264105440000C0D3 /* TDDSwift */,
 				E3C73F84264105460000C0D3 /* TDDSwiftTests */,
-				E3C73F8F264105460000C0D3 /* TDDSwiftUITests */,
 				E3C73F6C264105440000C0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +91,6 @@
 			children = (
 				E3C73F6B264105440000C0D3 /* TDDSwift.app */,
 				E3C73F81264105460000C0D3 /* TDDSwiftTests.xctest */,
-				E3C73F8C264105460000C0D3 /* TDDSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +98,7 @@
 		E3C73F6D264105440000C0D3 /* TDDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E3394A3726410667005EB96C /* Sources */,
 				E3C73F6E264105440000C0D3 /* AppDelegate.swift */,
 				E3C73F70264105440000C0D3 /* SceneDelegate.swift */,
 				E3C73F72264105440000C0D3 /* ViewController.swift */,
@@ -113,19 +113,10 @@
 		E3C73F84264105460000C0D3 /* TDDSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3C73F85264105460000C0D3 /* TDDSwiftTests.swift */,
+				E3C73F9E264105B00000C0D3 /* MoneyTest.swift */,
 				E3C73F87264105460000C0D3 /* Info.plist */,
 			);
 			path = TDDSwiftTests;
-			sourceTree = "<group>";
-		};
-		E3C73F8F264105460000C0D3 /* TDDSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E3C73F90264105460000C0D3 /* TDDSwiftUITests.swift */,
-				E3C73F92264105460000C0D3 /* Info.plist */,
-			);
-			path = TDDSwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +157,6 @@
 			productReference = E3C73F81264105460000C0D3 /* TDDSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E3C73F8B264105460000C0D3 /* TDDSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3C73F9B264105460000C0D3 /* Build configuration list for PBXNativeTarget "TDDSwiftUITests" */;
-			buildPhases = (
-				E3C73F88264105460000C0D3 /* Sources */,
-				E3C73F89264105460000C0D3 /* Frameworks */,
-				E3C73F8A264105460000C0D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3C73F8E264105460000C0D3 /* PBXTargetDependency */,
-			);
-			name = TDDSwiftUITests;
-			productName = TDDSwiftUITests;
-			productReference = E3C73F8C264105460000C0D3 /* TDDSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +170,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					E3C73F80264105460000C0D3 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = E3C73F6A264105440000C0D3;
-					};
-					E3C73F8B264105460000C0D3 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = E3C73F6A264105440000C0D3;
 					};
@@ -221,7 +190,6 @@
 			targets = (
 				E3C73F6A264105440000C0D3 /* TDDSwift */,
 				E3C73F80264105460000C0D3 /* TDDSwiftTests */,
-				E3C73F8B264105460000C0D3 /* TDDSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3C73F8A264105460000C0D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3394A3D26410EE7005EB96C /* Money.swift in Sources */,
 				E3C73F73264105440000C0D3 /* ViewController.swift in Sources */,
 				E3C73F6F264105440000C0D3 /* AppDelegate.swift in Sources */,
+				E3394A4126414A86005EB96C /* Bank.swift in Sources */,
+				E3394A4326414BFE005EB96C /* Sum.swift in Sources */,
 				E3C73F71264105440000C0D3 /* SceneDelegate.swift in Sources */,
+				E3394A3F264149D4005EB96C /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C73F86264105460000C0D3 /* TDDSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3C73F88264105460000C0D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3C73F91264105460000C0D3 /* TDDSwiftUITests.swift in Sources */,
+				E3C73F9F264105B00000C0D3 /* MoneyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +244,6 @@
 			isa = PBXTargetDependency;
 			target = E3C73F6A264105440000C0D3 /* TDDSwift */;
 			targetProxy = E3C73F82264105460000C0D3 /* PBXContainerItemProxy */;
-		};
-		E3C73F8E264105460000C0D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3C73F6A264105440000C0D3 /* TDDSwift */;
-			targetProxy = E3C73F8D264105460000C0D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +465,6 @@
 			};
 			name = Release;
 		};
-		E3C73F9C264105460000C0D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4X3E9PQ9NR;
-				INFOPLIST_FILE = TDDSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TDDSwift.TDDSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDSwift;
-			};
-			name = Debug;
-		};
-		E3C73F9D264105460000C0D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4X3E9PQ9NR;
-				INFOPLIST_FILE = TDDSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TDDSwift.TDDSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDSwift;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +491,6 @@
 			buildConfigurations = (
 				E3C73F99264105460000C0D3 /* Debug */,
 				E3C73F9A264105460000C0D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3C73F9B264105460000C0D3 /* Build configuration list for PBXNativeTarget "TDDSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3C73F9C264105460000C0D3 /* Debug */,
-				E3C73F9D264105460000C0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
